@@ -1,11 +1,12 @@
-var Monthly_income = 100000;
-var expenditure = 20000;
+var Monthly_income = 20000;
+var expenditure = 2000;
 var income = ((Monthly_income * 12) - (expenditure * 12));
 var expenditure_yearly = (expenditure * 12);
 var income_yearly = Monthly_income * 12; 
 var savings = 111000;
 var savings_year = 5;
 var savings_interest = (7.5 / 100);
+var max_amount = "50000";
 
 console.log("Monthly Income - " + Monthly_income);
 console.log("Yearly Income - " + income_yearly);
@@ -80,6 +81,6 @@ if( Deduction_amount < 50000 )
 }
 else
 {
-    console.log("Cannot Deduct Amount")
+    console.log("Your Max limit Amount - " + max_amount )
 }
 
